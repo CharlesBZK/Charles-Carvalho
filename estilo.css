@@ -1,0 +1,32 @@
+.center{
+    text-align: center;
+}
+body{
+    background-image: url(https://i.redd.it/w8r3rlzonija1.png);
+  
+    color: white !important;
+}
+
+.letra{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.preto{
+    background-color: black;
+}
+.branco{
+    background-color: white;
+}
+.vertical-center{ /*alinhamento vertical*/
+    min-height: 100%;  
+    min-height: 100vh; 
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .horizontal-center{
+      margin: 0 auto;
+      width: 80%;
+  
+  }
